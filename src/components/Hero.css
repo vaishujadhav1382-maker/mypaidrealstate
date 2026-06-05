@@ -22,7 +22,7 @@
   padding-bottom: clamp(20px, 5vh, 60px);
 }
 
-.hero__grid {
+.hero__grid {  
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 60px;

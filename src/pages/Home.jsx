@@ -5,8 +5,11 @@ import Services from '../components/Services'
 import About    from '../components/About'
 import Contact  from '../components/Contact'
 import Footer   from '../components/Footer'
+import useSEO   from '../hooks/useSEO'
 
 export default function Home() {
+  useSEO()
+
   return (
     <>
       <Header />
@@ -21,3 +24,4 @@ export default function Home() {
     </>
   )
 }
+

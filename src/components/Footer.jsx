@@ -40,13 +40,14 @@ export default function Footer() {
       <div className="footer__bottom">
         <div className="container">
           <p>
-            &copy; {new Date().getFullYear()} Sangli Real Estate &mdash; Swapnil Sushila Anandrao Patil. All rights reserved.
+            &copy; {new Date().getFullYear()} <a href="https://sanglirealestate.com" style={{ color: 'inherit', textDecoration: 'none' }}>sanglirealestate.com</a> &mdash; Swapnil Sushila Anandrao Patil. All rights reserved.
           </p>
           <p className="footer__seo-note">
-            Property Dealer Sangli | Buy House Sangli | Rent Flats Sangli | Land for Sale Sangli
+            Property Dealer Sangli | Buy House Sangli | Rent Flats Sangli | Land for Sale Sangli | sanglirealestate.com | www.sanglirealestate.com | https://sanglirealestate.com
           </p>
         </div>
       </div>
+
     </footer>
   )
 }
